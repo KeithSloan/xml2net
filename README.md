@@ -33,8 +33,10 @@ Syntax
 ##Known Challenges
 
   For the test file I had to change the standard footprint of the transistor  
-  pins 1,2,3 to Emitter, Base, Collector. In the supplied Library they
-  where E,B,C
+  in the standard library from E,B,C to 1,2,3 where
+- 1 = Emitter
+- 2 = Base
+- 3 = Collector. 
 
 ##Files
 

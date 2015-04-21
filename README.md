@@ -47,12 +47,12 @@ Syntax
 
 - KiCAD_import - KiCAD project directory
 
--- KiCAD_import.cmp          - KiCAD component file
--- KiCAD_import.kicad_pcb    - KiCAD PCB File
--- KiCAD_import.net          - Converted KiCAD netlist
--- KiCAD_import.pro          - KiCAD Project file
--- KiCAD_import.sch          - KiCAD schematic
--- Transistor_netlist.xml    - Exported Fritzing XML netlist
+** KiCAD_import.cmp          - KiCAD component file
+** KiCAD_import.kicad_pcb    - KiCAD PCB File
+** KiCAD_import.net          - Converted KiCAD netlist
+** KiCAD_import.pro          - KiCAD Project file
+** KiCAD_import.sch          - KiCAD schematic
+** Transistor_netlist.xml    - Exported Fritzing XML netlist
 
 - KiCAD_import.pretty - KS Library Modified footprint library
 

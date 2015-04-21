@@ -9,11 +9,13 @@ Syntax
 ##Workflow
 
 ###In Fritzing
+
   Create breadboard circuit in Fritzing
   Export circuit to XML Netlist - File | Export Netlist
   Run xml2net program
 
 ###In KiCAD
+
   Invoke schematic EEschema
   Then select run CvPCB - third icon from right - op amp & ic
   Then open Netlist - File | Open
@@ -27,7 +29,14 @@ Syntax
   Global Spread & place
   Complete PCB design
 
+##Known Challenges
+
+  For the test file I had to change the standard footprint of the transistor  
+  pins 1,2,3 to Emitter, Base, Collector. In the supplied Library they
+  where E,B,C
+
 ##files
+
   Sample test files in this repository
 
     LICENSE          - License
@@ -51,4 +60,3 @@ Syntax
 
    Feedback to keith@sloan-home.co.uk
 
- 

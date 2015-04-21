@@ -12,7 +12,8 @@ Syntax
 
 -  Create breadboard circuit in Fritzing
 -  Export circuit to XML Netlist - File | Export Netlist
--  Run xml2net program
+
+###Run xml2net program
 
 ###In KiCAD
 
@@ -35,7 +36,7 @@ Syntax
   pins 1,2,3 to Emitter, Base, Collector. In the supplied Library they
   where E,B,C
 
-##files
+##Files
 
   Sample test files in this repository
 

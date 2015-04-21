@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- Created with Fritzing (http://www.fritzing.org/) -->
+<netlist sketch="Transistor.fzz" date="Mon Mar 16 17:27:21 2015">
+ <net>
+  <connector name="Pin 0" id="connector0">
+   <part label="R1" id="57500" title="220Ω Resistor"/>
+  </connector>
+  <connector name="Pin 1" id="connector1">
+   <part label="R2" id="57530" title="400Ω Resistor"/>
+  </connector>
+  <connector name="Pin 0" id="connector0">
+   <part label="R3" id="57560" title="100Ω Resistor"/>
+  </connector>
+ </net>
+ <net>
+  <connector name="Pin 1" id="connector1">
+   <part label="R1" id="57500" title="220Ω Resistor"/>
+  </connector>
+  <connector name="B" id="connector1">
+   <part label="Q1" id="57470" title="NPN-Transistor"/>
+  </connector>
+ </net>
+ <net>
+  <connector name="0" id="connector0">
+   <part label="C1" id="57580" title="Ceramic Capacitor"/>
+  </connector>
+  <connector name="C" id="connector2">
+   <part label="Q1" id="57470" title="NPN-Transistor"/>
+  </connector>
+  <connector name="pin 0" id="connector0">
+   <part label="L1" id="57610" title="Inductor"/>
+  </connector>
+ </net>
+ <net>
+  <connector name="Pin 0" id="connector0">
+   <part label="R2" id="57530" title="400Ω Resistor"/>
+  </connector>
+  <connector name="E" id="connector0">
+   <part label="Q1" id="57470" title="NPN-Transistor"/>
+  </connector>
+ </net>
+ <net>
+  <connector name="1" id="connector1">
+   <part label="C1" id="57580" title="Ceramic Capacitor"/>
+  </connector>
+  <connector name="pin 1" id="connector1">
+   <part label="L1" id="57610" title="Inductor"/>
+  </connector>
+  <connector name="Pin 1" id="connector1">
+   <part label="R3" id="57560" title="100Ω Resistor"/>
+  </connector>
+ </net>
+</netlist>

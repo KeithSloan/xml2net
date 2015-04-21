@@ -1,0 +1,45 @@
+Cmp-Mod V01 Created by Cvpcb (2014-jul-16 BZR unknown)-product   date = Tue 21 Apr 2015 16:36:46 BST
+
+BeginCmp
+TimeStamp = 0;
+Reference = C1;
+ValeurCmp = Ceramic_Capacitor;
+IdModule  = Capacitors_ThroughHole:C_Axial_D5_L11_P18;
+EndCmp
+
+BeginCmp
+TimeStamp = 0;
+Reference = L1;
+ValeurCmp = Inductor;
+IdModule  = Inductors:INDUCTOR_V;
+EndCmp
+
+BeginCmp
+TimeStamp = 0;
+Reference = Q1;
+ValeurCmp = NPN-Transistor;
+IdModule  = KS Library2:TO-220_Bipolar-BCE_Horizontal-KS;
+EndCmp
+
+BeginCmp
+TimeStamp = 0;
+Reference = R1;
+ValeurCmp = 220Ω_Resistor;
+IdModule  = Resistors_ThroughHole:Resistor_Cement_Horizontal_Meggitt-SBC-2;
+EndCmp
+
+BeginCmp
+TimeStamp = 0;
+Reference = R2;
+ValeurCmp = 400Ω_Resistor;
+IdModule  = Resistors_ThroughHole:Resistor_Cement_Horizontal_Meggitt-SBC-2;
+EndCmp
+
+BeginCmp
+TimeStamp = 0;
+Reference = R3;
+ValeurCmp = 100Ω_Resistor;
+IdModule  = Resistors_ThroughHole:Resistor_Cement_Horizontal_Meggitt-SBC-2;
+EndCmp
+
+EndListe

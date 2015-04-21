@@ -1,0 +1,50 @@
+# EESchema NetList Version 1.0
+(
+( 0 $noname R1 220Ω_Resistor
+( 1 N-0001 )
+( 2 N-0002 )
+)
+( 0 $noname R2 400Ω_Resistor
+( 2 N-0001 )
+( 1 N-0004 )
+)
+( 0 $noname R3 100Ω_Resistor
+( 1 N-0001 )
+( 2 N-0005 )
+)
+( 0 $noname Q1 NPN-Transistor
+( 2 N-0002 )
+( 3 N-0003 )
+( 1 N-0004 )
+)
+( 0 $noname C1 Ceramic_Capacitor
+( 1 N-0003 )
+( 2 N-0005 )
+)
+( 0 $noname L1 Inductor
+( 1 N-0003 )
+( 2 N-0005 )
+)
+)
+*
+{ Pin List by Nets
+Net 1 ""
+R1 1
+R2 2
+R3 1
+Net 2 ""
+R1 2
+Q1 2
+Net 3 ""
+C1 1
+Q1 3
+L1 1
+Net 4 ""
+R2 1
+Q1 1
+Net 5 ""
+C1 2
+L1 2
+R3 2
+}
+#end

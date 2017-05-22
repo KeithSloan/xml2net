@@ -6,16 +6,16 @@ Syntax
 
   python xml2net.py [Source XML file] [Output_Net_file]
 
-##Workflow
+## Workflow
 
-###In Fritzing
+### In Fritzing
 
 -  Create breadboard circuit in Fritzing
 -  Export circuit to XML Netlist - File | Export Netlist
 
-###Run xml2net program
+### Run xml2net program
 
-###In KiCAD
+### In KiCAD
 
 -  Invoke schematic EEschema
 -  Then select run CvPCB - third icon from right - op amp & ic
@@ -30,7 +30,7 @@ Syntax
 -  Global Spread & place
 -  Complete PCB design
 
-##Known Challenges
+## Known Challenges
 
   For the test file I had to change the standard footprint of the transistor  
   in the standard library from E,B,C to 1,2,3 where
@@ -38,7 +38,7 @@ Syntax
 - 2 = Base
 - 3 = Collector. 
 
-##Files
+## Files
 
   Sample test files in this repository
 
@@ -59,7 +59,7 @@ Syntax
 
 - KiCAD_import.pretty - KS Library Modified footprint library
 
-#Feedback
+# Feedback
 
    Feedback to keith@sloan-home.co.uk
 
